@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Newsreader:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+
+#intro {
+	font-family: "Newsreader", serif;
+	font-size: 25px;
+	font-style: normal;
+	color: rgb(32, 32, 32);
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 110%;
+	text-align: left;
+	margin: auto;
+	width: 700px;
+	max-width: 93%;
+}
+
+#photo {
+	margin-bottom: 2.5%;
+	width: 350px;
+	margin-top: 3.5%;
+	align-items: center;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon {
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width: 60px;
+	margin-right: 10px;
+	font: normal normal normal 25px/1 FontAwesome;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: center;
+}
+
+.a {
+	color: rgb(0, 0, 0);
+}
+
+.a:hover {
+	color: rgb(89, 111, 248);
+}
+
+.category {
+	font-family: "Libre Baskerville", serif;
+	font-size: 25px;
+	font-style: normal;
+	color: rgb(32, 32, 32);
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: 0;
+	margin-top: 3.5%;
+	margin-bottom: 1.5%;
+	background-clip: padding-box;
+	border-radius: 20px;
+}
+
+.category-desc {
+	font-family: "Newsreader", serif;
+	margin: auto;
+	color: rgb(34, 34, 34);
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 90px;
+	width: 700px;
+	line-height: 110%;
+}
+
+.work-sample {
+	width: 1400px;
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.piece {
+	width: calc(100% / 3);
+	float: left;
+	padding-right: 1.75%;
+	padding-left: 1.75%;
+	padding-bottom: 3%;
+}
+
+/* For tablets */
+@media (max-width: 1150px) {
+	.piece {
+		width: calc(100% / 2);
+		float: left;
+	}
+}
+
+.piece-title {
+	font-family: "Libre Baskerville", serif;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 115%;
+	color: rgb(0, 0, 0);
+	margin-top: 2.25%;
+	margin-bottom: 0;
+}
+
+.piece-desc {
+	font-family: "Newsreader", serif;
+	font-style: normal;
+	color: #575757;
+	font-size: 15.2px;
+	font-weight: 300;
+	margin-top: 1.5%;
+	line-height: 130%;
+	margin-bottom: 6px;
+}
+
+.tool {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	color: white;
+	border-radius: 8px;
+	padding: 1.75px;
+	padding-left: 5.2px;
+	padding-right: 5.2px;
+	margin-right: 0.7%;
+	line-height: 100%;
+	vertical-align: middle;
+}
+
+/* For mobile */
+@media (max-width: 576px) {
+	#intro {
+		font-size: 22px;
+	}
+
+	#photo {
+		width: 150px;
+		padding-top: 5%;
+	}
+
+	.category-desc {
+		font-size: 16.5px;
+	}
+
+	.work-sample {
+		flex-direction: column;
+	}
+
+	.piece {
+		width: 100%;
+		padding-bottom: 40px;
+	}
+
+	.piece-desc {
+		margin-bottom: 7px;
+	}
+}
+
+.pandas {
+	background-color: #669df1;
+}
+
+.mapbox {
+	background-color: #eb7996;
+}
+
+.web-scraping {
+	background-color: rgb(146, 190, 146);
+}
+
+.premiere-pro {
+	background-color: rgb(189, 148, 198);
+}
+
+.after-effects {
+	background-color: rgb(132, 132, 169);
+}
+
+.final-cut {
+	background-color: darkgoldenrod;
+}
+
+.illustrator {
+	background-color: rgb(245, 162, 54);
+}
+
+.ai2html {
+	background-color: rgb(230, 130, 130);
+}
+
+.videography {
+	background-color: rgb(223, 129, 129);
+}
+
+.r {
+	background-color: rgb(134, 204, 241);
+}
+
+.qgis {
+	background-color: rgb(104, 123, 112);
+}
+
+.scrollytelling {
+	background-color: rgb(196, 152, 223);
+}
+
+.D3 {
+	background-color: rgb(246, 153, 139);
+}
+
+.datawrapper {
+	background-color: rgb(178, 194, 175);
+}
+
+.hvr-grow {
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+.shadow {
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	box-shadow: 0 1.5px 5px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.2);
+}
