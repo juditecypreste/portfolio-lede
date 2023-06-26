@@ -1,6 +1,7 @@
 
 @import url('https://fonts.cdnfonts.com/css/cake-zombie');
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Newsreader:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .intro {
     margin: 0 auto;
@@ -75,11 +76,22 @@ img {
     text-align: center;
     margin: 0 auto;
     font-family: 'Cake Zombie', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
     margin-top: 20px;
     color: #5f7a24;
 }
+
+.chart-subtitle {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0px;
+    color: #5f7a24;
+}
+
 .chart{
     padding-left: 0rem;
     margin-top: 3px;
@@ -87,11 +99,11 @@ img {
 
 }
 .chart-notes {
-    font-family: 'Homemade Apple';
-    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     max-width: 760px;
     padding-left: 3rem;
-    padding-top: 2rem;
+    padding-top: 0rem;
     margin: 0 auto;
 }
 
