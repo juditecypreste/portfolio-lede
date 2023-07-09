@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Newsreader:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap');
+
+.title-image {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #46071F;
+    max-width: 80px; 
+}
+
+.intro {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #46071F;
+}
+
+body {
+    font-feature-settings: 'kern'1, 'onum'0, 'liga'0, 'tnum'1;
+    color: #46071F;
+}
+
+p {
+    margin: 1.5rem 0;
+    font-size: 20px;
+    line-height: 1.7;
+    font-family: 'Newsreader", serif';
+}
+
+.section {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+img {
+    max-width: 100%
+}
+
+.full-size-image {
+    max-width: 1;
+    margin: 0 auto;
+}
+
+.plot-holder {
+    margin-bottom: 1em;
+}
+
+.plot-holder .caption {
+    color: #46071F;
+    text-align: right;
+    font-size: 0.75em;
+}
+
+.plot-holder h3 {
+    font-size: 2em;
+}
+
+.plot-holder .subtitle {
+    font-weight: bold;
+}
+
+.chart-section {
+    background-size: 100%;
+    padding: 30px 0 0px 0;
+    margin-top:0%;
+    margin-bottom: 1rem;
+    color: #46071F;
+}
+
+.chart-section .chart-title {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #46071F;
+}
+
+.chart-subtitle {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 0px;
+    color: #46071F;
+}
+
+.chart {
+    padding-left: 0rem;
+    margin-top: 3px;
+    /* margin: 0 auto; */
+}
+
+.chart-notes {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    max-width: 760px;
+    padding-left: 3rem;
+    padding-top: 0rem;
+    margin: 0 auto;
+}
+
+.chart-tableau {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    /* margin-top: 7px; */
+    margin: 0 auto;
+}
+
+#g-graphic_2-box,
+#g-graphic_2-box .g-artboard {
+    margin: 0 auto;
+}
+
+#g-graphic_2-box p {
+    margin: 0;
+}
+
+#g-graphic_2-box .g-aiAbs {
+    position: absolute;
+}
+
+#g-graphic_2-box .g-aiImg {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100% !important;
+}
+
+#g-graphic_2-box .g-aiSymbol {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#g-graphic_2-box .g-aiPointText p { white-space: nowrap; }
+
+#g-graphic_2-Prancheta_1 {
+    position: relative;
+    overflow: hidden;
+}
+
+#g-graphic_2-Prancheta_1 p {
+    font-weight: 500;
+    line-height: 18px;
+    height: auto;
+    opacity: 1;
+    letter-spacing: 0em;
+    font-size: 12px;
+    text-align: left;
+    color: rgb(70, 7, 31);
+    text-transform: none;
+    padding-bottom: 0;
+    padding-top: 0;
+    mix-blend-mode: normal;
+    font-style: normal;
+    position: static;
+    font-family: 'Roboto', sans-serif;
+}
+
+#g-graphic_2-Prancheta_1 .g-pstyle0 {
+    height: 18px;
+}
+
+#g-graphic_2-Prancheta_1 .g-pstyle1 {
+    height: 18px;
+    opacity: 0.9;
+}
+
+#g-graphic_1-box,
+#g-graphic_1-box .g-artboard {
+    margin: 0 auto;
+    
+}
+
+#g-graphic_1-box p {
+    margin: 0;
+}
+
+#g-graphic_1-box .g-aiAbs {
+    position: absolute;
+}
+
+#g-graphic_1-box .g-aiImg {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100% !important;
+}
+
+#g-graphic_1-box .g-aiSymbol {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#g-graphic_1-box .g-aiPointText p { white-space: nowrap; }
+
+#g-graphic_1-Prancheta_1 {
+    position: relative;
+    overflow: hidden;
+    max-width: 1000px;
+    max-height: 600px;
+}
+
+#g-graphic_1-Prancheta_1 p {
+    font-weight: 500;
+    line-height: 18px;
+    height: auto;
+    opacity: 1;
+    letter-spacing: 0em;
+    font-size: 12px;
+    text-align: left;
+    color: rgb(70, 7, 31);
+    text-transform: none;
+    padding-bottom: 0;
+    padding-top: 0;
+    mix-blend-mode: normal;
+    font-style: normal;
+    position: static;
+    font-family: 'Roboto', sans-serif;
+}
+
+#g-graphic_1-Prancheta_1 .g-pstyle0 {
+    height: 18px;
+    text-align: center;
+}
+
+#g-image-grid-box,
+#g-image-grid-box .g-artboard {
+    margin: 0 auto;
+}
+
+#g-image-grid-box p {
+    margin: 0;
+}
+
+#g-image-grid-box .g-aiAbs {
+    position: absolute;
+}
+
+#g-image-grid-box .g-aiImg {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100% !important;
+}
+
+#g-image-grid-box .g-aiSymbol {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#g-image-grid-box .g-aiPointText p { white-space: nowrap; }
+
+#g-image-grid-Prancheta_1 {
+    position: relative;
+    overflow: hidden;
+}
+
+#g-image-grid-Prancheta_1 p {
+    font-weight: 700;
+    line-height:16px;
+    height:auto;
+    opacity:1;
+    letter-spacing:0em;
+    font-size:13px;
+    text-align:left;
+    color:rgb(255,255,255);
+    text-transform:none;
+    padding-bottom:0;
+    padding-top:0;
+    mix-blend-mode:normal;
+    font-style:normal;
+    position:static;
+    font-family: 'Roboto', sans-serif;
+}
+
+#g-image-grid-Prancheta_1 .g-pstyle0 {
+    line-height:45px;
+    height:45px;
+    font-size:38px;
+    text-align:center;
+}
+#g-image-grid-Prancheta_1 .g-pstyle1 {
+    line-height:30px;
+    height:22px;
+    font-size:18px;
+    text-align:center;
+    margin-left: -50px;
+}
+#g-image-grid-Prancheta_1 .g-pstyle2 {
+    line-height:31px;
+    height:31px;
+    font-size:18px;
+    text-align:center;
+}
+#g-image-grid-Prancheta_1 .g-pstyle3 {
+    line-height:40px;
+    height:10px;
+    font-size:9px;
+    text-align:left;
+}
+#g-image-grid-Prancheta_1 .g-pstyle4 {
+    line-height:26px;
+    height:20px;
+    font-size:15px;
+    text-align:center;
+}
+#g-image-grid-Prancheta_1 .g-pstyle5 {
+    line-height:65px;
+    height:65px;
+    font-size:30px;
+    text-align:center;
+}
+#g-image-grid-Prancheta_1 .g-pstyle6 {
+    line-height:30px;
+    height:30px;
+    font-size:15px;
+    text-align:center;
+}
+
+#g-image-grid-Prancheta_1 .g-pstyle7 {
+    line-height:35px;
+    height:30px;
+    font-size:30px;
+    text-align:center;
+}
+
+#g-title-box ,
+#g-title-box .g-artboard {
+    margin:0 auto;
+}
+#g-title-box p {
+    margin:0;
+}
+#g-title-box .g-aiAbs {
+    position:absolute;
+}
+#g-title-box .g-aiImg {
+    position:absolute;
+    top:0;
+    display:block;
+    width:100% !important;
+}
+#g-title-box .g-aiSymbol {
+    position: absolute;
+    box-sizing: border-box;
+}
+#g-title-box .g-aiPointText p { white-space: nowrap; }
+#g-title-Prancheta_1 {
+    position:relative;
+    overflow:hidden;
+}
+#g-title-Prancheta_1 p {
+    font-weight:700;
+    line-height:120px;
+    height:auto;
+    opacity:1;
+    letter-spacing:0em;
+    font-size:50px;
+    text-align:left;
+    color: #46071F;
+    text-transform:none;
+    padding-bottom:0;
+    padding-top:0;
+    mix-blend-mode:normal;
+    font-style:normal;
+    position:static;
+    font-family: 'Lora', serif;
+}
+#g-title-Prancheta_1 .g-pstyle0 {
+    height:120px;
+}
+#g-title-box ,
+#g-title-box .g-artboard {
+    margin:0 auto;
+}
+#g-title-box p {
+    margin:0;
+}
+#g-title-box .g-aiAbs {
+    position:absolute;
+}
+#g-title-box .g-aiImg {
+    position:absolute;
+    top:0;
+    display:block;
+    width:100% !important;
+}
+#g-title-box .g-aiSymbol {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#g-title-box .g-aiPointText p { white-space: nowrap; }
+#g-title-Prancheta_1 {
+    position:relative;
+    overflow:hidden;
+}
+#g-title-Prancheta_1 p {
+    font-weight:700;
+    line-height:120px;
+    height:auto;
+    opacity:1;
+    letter-spacing:0em;
+    font-size:60px;
+    text-align:left;
+    color:rgb(0,0,0);
+    text-transform:none;
+    padding-bottom:0;
+    padding-top:0;
+    mix-blend-mode:normal;
+    font-style:normal;
+    position:static;
+}
+#g-title-Prancheta_1 .g-pstyle0 {
+    height:120px;
+}
