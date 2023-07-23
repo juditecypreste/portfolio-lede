@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Newsreader:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
+.intro .title {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #46071F;
+    max-width: 500px; 
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+.byline{
+    text-align: justify;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 80px;
+    color: #46071F;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #46071F;
+    max-width: 500px; 
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+body {
+    font-feature-settings: 'kern'1, 'onum'0, 'liga'0, 'tnum'1;
+    color: #46071F;
+}
+
+p {
+    margin: 1.5rem 0;
+    font-size: 20px;
+    line-height: 1.7;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+}
+
+.section {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+img.text {
+    max-width: 200px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plot-holder {
+    margin-bottom: 1em;
+}
+
+.plot-holder .caption {
+    color: #46071F;
+    text-align: right;
+    font-size: 0.75em;
+}
+
+.plot-holder h3 {
+    font-size: 2em;
+}
+
+.plot-holder .subtitle {
+    font-weight: bold;
+}
+
+#g-woman_men-box ,
+	#g-woman_men-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-woman_men-box p {
+		margin:0;
+	}
+	#g-woman_men-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-woman_men-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-woman_men-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-woman_men-box .g-aiPointText p { white-space: nowrap; }
+	#g-woman_men-Prancheta_5 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-woman_men-Prancheta_5 p {
+		font-weight:500;
+		line-height:18px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:15px;
+		text-align:left;
+		color: #46071F;
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+        font-family: 'IM Fell Great Primer SC', serif;
+	}
+	#g-woman_men-Prancheta_5 .g-pstyle0 {
+		height:18px;
+	}
+
+    #scrolly {
+        position: relative;
+        padding: 10rem;
+      }
+
+      .scrolly-overlay {
+        position: relative;
+        padding: 0;
+        min-width: 35rem;
+        margin: 0 auto;
+      }
+
+      .sticky-thing {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 0;
+        top: 0;
+        height: 100vh;
+        /* Center everything inside */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        margin-bottom: 25rem;
+        background-color: #f0d8b4;
+        color: black;
+      }
+
+      .step p {
+        text-align: left;
+        padding: 1rem;
+        font-size: 1.5rem;
+		font-family: 'IM Fell Great Primer SC', serif;
+      }
+
+      .hidden {visibility: hidden;}
+
+	  /* When it's less than 700 pixels wide, do normal scrollytelling */
+	  @media only screen and (min-width: 700px) {
+		#scrolly.side-by-side {
+			display: flex;
+		}
+
+		#scrolly.side-by-side > div {
+			flex-basis: 0;
+			flex-grow: 1;
+			flex-shrink: 1;
+			padding: 0.75em;
+		}
+
+		#scrolly.side-by-side .scrolly-overlay {
+			margin-top: 70vh;
+			order: 0;
+			/* Change these to adjust sizing options */
+			min-width: 15rem;
+			max-width: 20rem;
+		}
+
+		#scrolly.side-by-side .sticky-thing {
+			order: 1;
+			flex-grow: 2;
+		}
+	  }
