@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Class, Sensibilities, and the Gilmore Girls Literary Canon</title>
+  <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
+  <!--- STYLE SHEETS  --->
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+  <body>
+  <div class="header">
+  </div>
+  <div class="wrapper">
+    <div class="content">
+      <div class="writing">
+        <div class="byline">
+          <h5>By Kim Nguyen</h5>
+          <span style="font-size: 8pt;">
+            June 2023
+          </span>
+        </div>
+        </p>
+        <p>
+          Originally aired on the CW (formerly the WB), Gilmore Girls is ostensibly a teenage soap opera following Lorelai and Rory Gilmore as they navigate the landscape of single motherhood and coming of age, respectively. The show is known for its rapid-fire dialogue and Gilmore-isms, cultural references delivered with levity, quirkiness, and wit; the references are so highly specific that they warranted the publication of companion booklets published by the WB alongside the boxed DVD sets, intended to be kept while watching the episodes in the event you need to look something up<a href="#footer">[1]</a>. I never finished the series but after watching five seasons, Gilmore Girls is the de-facto show, if not the only, about literary practices as influenced by cultural capital, class, and the leverage of these aspects related to upward mobility.
+        </p>
+        <p>
+          The show primarily follows the day-to-day life of Lorelai and Rory in the fictional New England town of Stars Hollow, Connecticut, and despite the heavy-handed overtones of meritocracy, the Gilmores’ inherited social standing plays a pivotal role in how the series’ plot pans out. By the time the “Pilot” episode is finished, the audience learns that Lorelai and Rory come from a wealthy background and are quite the opposite from destitute — this is particularly seen with Rory leaving public school to attend Chilton, an elite private prep school, and later Yale through the Gilmores’ long standing associations with the institution.  
+        </p>
+        <div class="video">
+          <video width="720" height="393" controls loop autoplay muted playsinline>
+            <source src="./assets/img/rory-reading.mov" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="quote-block">
+         If one were to read a book a month from the Gilmore Girls canon, it would take 31 years to get through the entire thing.  
+        </div>
+        <p>
+          From a social angle, Gilmore Girls is a master class of Bourdieu’s theory of cultural capital and habitus in practice<a href="#footer">[2]</a>. Through its portrayal of literacy, namely in how Rory approaches reading in the broader cultural context, Gilmore Girls seeks to redefine the standards of taste, capital, and the dissemination of culture by literature, marrying both its high and low forms — “[the show’s characters] demonstrate an ability to read and analyze texts that are not conventionally considered worthwhile reading by many within elite culture, and yet they do so with the sophistication of elite readers”<a href="#footer">[3]</a>.
+        </p>
+        <p>
+        In other words, Lorelai and Rory come from old money but they’re not stuffy about it. This laid-back yet refined aesthetic sensibility is seen in the series’ literary canon, and is reflective of Gilmores’ WASP-stock background as well as their pop-culture inclinations. A total of around 339 - 550 books were referenced over the course of seven seasons, depending on the list you’re sourcing your data from and if the reboot is included<a href="#footer">[4]</a><a href="#footer">[5]</a>; selections from the canon are eclectic and liberally taken from both high and low literary culture. Most of these compiled lists are primarily concerned with printed matter, excluding works from the vast mediums that the Gilmores are seen consuming in the episodes, like television (Rory is a fan of the Brady Bunch); music (both NSYNC and Nick Cave were named dropped); film (I personally recall an <i>8½</i> reference); and magazines (a lot of Cosmo).
+        </p>
+        <p>
+          The interactive graphic below contains titles from the literary canon as explored in the series. There are approximately 372 titles included, and if one were to read a book a month from the Gilmore Girls canon, it would take 31 years to get through the entire thing. Works range from self-help, Fodor Guides, and at least one title from the For Dummies series, as well as more universally accepted forms of literature such as poetry, plays, and selections from the traditional canon.
+        </p>
+      </div>
+      <div class="works">
+        <div class="cover-display">
+        <div class="cover">
+          <img src="./assets/img/default-cover.png" id="cover" alt="cover image of each book title">
+        </div>
+        </div>
+        <div class="info-box">
+          <div class="intro">
+            Click on a title to get its publication info 
+          </div>
+          <div class="title">
+            <span class="infobox"><b>Title:</b></span>
+          <span id="title"></span>
+          </div>
+          <div class="author">
+            <span class="infobox"><b>Author:</b></span>
+          <span id="author"></span>
+          </div>
+          <div class="year">
+            <span class="infobox"><b>Year Published:</b></span>
+          <span id="year"></span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="select"> -->
+      <!--   <select class="scale"> -->
+      <!--     <option selected="selected" value="expScale">Exponential Scale</option> -->
+      <!--     <option value="linScale">Linear Scale</option> -->
+      <!--   </select> -->
+      <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="chart">
+    <svg class="chart">
+    </svg>
+    <span class="summary" style="font-size: 8pt; font-style: italic; line-height: 0.5;">
+      source: <a href="https://www.goodreads.com/list/show/72680.Gilmore_Girls_Complete_Reading_List" target="blank">Goodreads</a>
+  </span>
+    <div id="footer" style="font-size: 8pt; font-style: italic; line-height: 1;">
+      <p>Methodology</p>
+      <p>Data source is linked below the chart, and was gathered primarily using Open Library’s API as exported from a Goodreads list. Since the data is measured on one dimension, a beeswarm plot was used to represent each title by its publication year. An exponential scale is used in order to (1) linearize the data for human readability; (2) communicate title aggregation trends based on publication year (though classics are included from the 1800’s and prior, the bulk of the canon lies in the 20th and 21st centuries). Full methodology can be found <a href="https://github.com/sherbert-lemon/gg-lit-canon/tree/main" target="blank">here</a>.</p>
+      <p>References</p>
+      <ol>
+        <li>1. <a href="https://books.google.com/books/about/Your_Complete_Guide_to_Gilmore_isms.html?id=PVYAlwEACAAJ" target=”blank"> 
+            https://books.google.com/books/about/Your_Complete_Guide_to_Gilmore_isms.html?id=PVYAlwEACAAJ</a>
+        <li>2. <a href="https://www.jstor.org/stable/23416396” target="blank">https://www.jstor.org/stable/23416396</a>
+        <li>3. <a href=”https://www.jstor.org/stable/23416396" target="blank">https://doi.org/10.1017/UPO9781844654031.006</a>
+        <li>4. <a href="https://www.buzzfeed.com/krystieyandoli/all-339-books-referenced-in-gilmore-girls" target="blank">https://www.buzzfeed.com/krystieyandoli/all-339-books-referenced-in-gilmore-girls</a>
+        <li>5. <a href="https://www.julesbuono.com/rory-gilmore-book-list/" target="blank">https://www.julesbuono.com/rory-gilmore-book-list/</a>
+      </ol>
+    </div>
+  </div>
+<!-- SCRIPT FILES -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="js/beeswarm.js"></script>
+  </body>
+</html>
