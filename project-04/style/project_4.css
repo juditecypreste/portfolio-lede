@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Newsreader:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lora&display=swap');
+
+.intro
+
+.title-image {
+    max-width: 500px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.byline{
+    text-align: justify;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 80px;
+    color: #46071F;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #46071F;
+    max-width: 500px; 
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+body {
+    font-feature-settings: 'kern'1, 'onum'0, 'liga'0, 'tnum'1;
+    color: #46071F;
+}
+
+p {
+    margin: 1.5rem 0;
+    font-size: 20px;
+    line-height: 1.7;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+}
+
+
+.section{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+    .section-image {
+        flex: 1;
+        background-size: cover;
+        background-position: center;
+        padding-top: 100px;
+    }
+
+
+.section-side {
+    display: flex;
+    width: 80%; /* Defina a largura desejada */
+    margin: 0 auto; /* Centraliza a seção na página */
+    margin-top: 50px;
+}
+
+  .text-side-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-side-section {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+  }
+
+/* AI2HTML CHART START */
+
+#g-chart-box ,
+#g-chart-box .g-artboard {
+    margin:0 auto;
+}
+#g-chart-box p {
+    margin:0;
+}
+#g-chart-box .g-aiAbs {
+    position:absolute;
+}
+#g-chart-box .g-aiImg {
+    position:absolute;
+    top:0;
+    display:block;
+    width:100% !important;
+}
+#g-chart-box .g-aiSymbol {
+    position: absolute;
+    box-sizing: border-box;
+}
+#g-chart-box .g-aiPointText p { white-space: nowrap; }
+#g-chart-Prancheta_1 {
+    position:relative;
+    overflow:hidden;
+}
+
+/* AI2HTML CHART END */
+
+/* SCROLLAMA CODE */
+#scrolly {
+    position: relative;
+    padding: 10rem;
+}
+
+.scrolly-overlay {
+    position: relative;
+    min-width: 35rem;
+    margin: 0 auto;
+}
+
+.sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    top: 0;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step {
+    margin: 0 auto 20rem auto;
+    margin-bottom: 50rem;
+    background-color: #f0d8b4;
+    color: black;
+    padding: 2rem; /* Adicione o padding desejado aqui */
+}
+
+.step p {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+}
+
+.hidden {visibility: hidden;}
+
+/* When it's less than 700 pixels wide, do normal scrollytelling */
+@media only screen and (min-width: 100px) {
+#scrolly.side-by-side {
+    display: flex;
+}
+
+#scrolly.side-by-side > div {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+#scrolly.side-by-side .scrolly-overlay {
+    margin-top: 70vh;
+    order: 0;
+    /* Change these to adjust sizing options */
+    min-width: 30rem;
+    max-width: 10rem;
+}
+
+#scrolly.side-by-side .sticky-thing {
+    order: 1;
+    flex-grow: 2;
+}
+}
+/* SCROLLAMA CODE */
