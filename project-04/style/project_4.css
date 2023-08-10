@@ -3,36 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lora&display=swap');
 
-.intro
+.intro 
 
 .title-image {
     max-width: 500px;
-    margin-bottom: 5px;
+    margin: 0 auto 5px auto;
     padding-top: 5px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.byline{
+.byline {
     text-align: justify;
-    margin: 0 auto;
     font-family: 'Lora', serif;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 80px;
+    margin: 80px auto 0 auto;
     color: #46071F;
 }
 
 .subtitle {
     text-align: center;
-    margin: 0 auto;
     font-family: 'Alfa Slab One', cursive;
     font-weight: 100;
-    margin-top: 20px;
+    margin: 20px auto 10px auto;
     color: #46071F;
-    max-width: 500px; 
-    margin-bottom: 10px;
+    max-width: 500px;
     padding-top: 10px;
     font-size: 30px;
 }
@@ -47,44 +42,45 @@ p {
     font-size: 20px;
     line-height: 1.7;
     font-family: 'Lora', serif;
-    font-size: 17px;
 }
 
-
-.section{
-    max-width: 800px;
+.section {
+    max-width: 760px;
     margin: 0 auto;
-    margin-top: 10px;
 }
 
-    .section-image {
-        flex: 1;
-        background-size: cover;
-        background-position: center;
-        padding-top: 100px;
-    }
-
+.section-image {
+    max-width: 5px;
+    margin: 0;
+    padding-top: 5px;
+    display: block;
+}
 
 .section-side {
-    display: flex;
-    width: 80%; /* Defina a largura desejada */
-    margin: 0 auto; /* Centraliza a seção na página */
-    margin-top: 50px;
-}
-
-  .text-side-section {
     flex: 1;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .image-side-section {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 20rem;
+    padding-bottom: 1rem;
+}
+
+.text-side-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-side-section {
     flex: 1;
     background-size: cover;
     background-position: center;
-  }
+}
 
 /* AI2HTML CHART START */
 
