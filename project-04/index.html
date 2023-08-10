@@ -22,19 +22,19 @@
 
 	<div class="opener">
 		<div class="p">
-      <p>Since ancient times, humans have had curiosity about understanding their own bodies. The curiosity to comprehend how and what we are made of led artists to purchase or steal cadavers in search of answers. Although science has evolved enough to provide more effective methods to satisfy our curiosity, humans still revere and strive to understand their own bodies.</p>
-      <p>To contribute to this quest, I attempted to understand how humans talk about their own bodies in one of the most important and respected sources of effective answers about humanity today: Spotify songs.</p>
-      <p>Armpits, knees, and necks: how do the platform's most popular songs sing about our bodies? What do these songs celebrate (or not) about our bodies? What is the human relationship with oneself?</p>
-      <p>Below, you will find a selection of body parts and excerpts from songs that mention them. You also have the chance to listen to the song if you are curious or simply don't want to miss anything.</p>
-      <p><b>WARNING:</b> Some songs may contain explicit or offensive language. Learn more about the methodology at the end of this page.</p>
-    </div>
+            <p>According to data from the <a href="https://www.guerrillagirls.com/">Guerrilla Girls</a>, only 6% of the artists whose artworks are featured at MASP, the art museum in São Paulo, are women. The Guerrilla Girls are anonymous artist activists who expose gender and ethnic bias and corruption in art, film, politics, and pop culture.</p>
+            <p>However, the number of female representations in paintings goes against this statistic. Used as objects rather than creators, it is not uncommon to find the female body portrayed in numerous famous artworks, whether with just an enigmatic smile or in the form of "artistic nude."</p>
+            <p>In this project, I will demonstrate how an AI, which calculates the probability of identifying objects in images, detected the presence of women - solely as objects to be represented - in one of Brazil's most renowned museums.</p>            
+            <p>For the research method, four search parameters were used: "In this painting, there is a woman", "In this painting, there is a man", "There are no people in this painting", "There is more than one person in this painting".</p>
+            <p>These criteria were chosen in order to facilitate the analysis by the tool. Therefore, paintings where more than one human figure was represented, regardless of gender, were categorized as belonging to the third group.</p>
+        </div>
 	</div>
 </div>
 
 <!-- Woman image -->
 <div class="section-side">
     <div class="text-side-section">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis varius ligula. Fusce non mi purus.</p>
+        <p>Famous paintings, the images next to this text were some of those analyzed and classified by the algorithm as having the presence of a woman.</p>
     </div>
     <div class="image-side-section">
         <img src="img/woman.gif" alt="Minha Imagem">
@@ -13463,19 +13463,19 @@
 <div class="scrolly-overlay">
 	<div class="step" id="step-zero">
 		<!-- Annotation: #instructions -->
-		<p>Now, the study about anatomy of the song starts</p>
-	  </div>
+        <p>In the chart to the side, we can observe how the AI detected the presence of individuals in the 440 artworks from the museum's collection. The higher the squares are positioned, the more confident the tool was in categorizing them.</p>
+    </div>
 	  <div class="step" id="step-one">
 		<!-- Annotation: #hand -->
-		<p>Then I'ma throw this money while you do it with no hands (let go)</p>
-	  </div>
+        <p>In the case of paintings featuring the presence of a female figure, the AI felt very confident in its assessment.</p>
+    </div>
 	  <div class="step" id="step-two">
 		<!-- Annotation: #head -->
-		<p>Don't stay awake for too long, don't go to bed; I'll make a cup of coffee for your head</p>
-	  </div>
+        <p>This occurred inversely in paintings that featured men.</p>
+    </div>
 	  <div class="step" id="step-three">
 		<!-- Annotation: #arm -->
-		<p>Open arms; You keep me open, I'm so devoted</p>
+		<p>The same pattern of uncertainty also occurred in paintings that had no one or had many people. Is the AI so accustomed to recognizing that women can be portrayed in paintings?</p>
 	  </div>
 
 </section>
@@ -13640,10 +13640,10 @@ function throttle(func, wait) {
 <!-- Text-1 -->
 <div class="section">
 	<div>
-		<p>The collection of songs on the Spotify platform and subsequent analysis were conducted using the Python programming language.</p>
-		<p>For the data collection part, the ten most popular songs on the platform were searched, using the body part to be investigated as the keyword.</p>
-		<p>In order of popularity, they were listened to and read for validation. Later, they were selected and grouped in the playlist below, which you can listen to if you enjoyed this analysis. The entire code and data are available <a href="https://github.com/juditecypreste/sound_anatomy">here</a>.</p>
-	</div>
+        <p>Despite the successes, this analysis merely represents doubts. In a randomly selected sample that I personally analyzed, just over half, 64%, of a set of 50 paintings were correctly evaluated by the AI.</p>
+        <p>What does this mean? Well, despite the temptation to believe that there's truly an abundance of paintings featuring women that fed into the AI's learning data, the tendency is that it has erred significantly in this task.</p>        
+        <p>As we can see below:</p>
+    </div>
 </div>
 <div class="intro">
     <img class="title-image" src = "img/error.png" alt="Where are the women?"></img>
@@ -13652,9 +13652,10 @@ function throttle(func, wait) {
 <div class="section">
 	<div>
     <p class="subtitle">Conclusion</p>
-		<p>The collection of songs on the Spotify platform and subsequent analysis were conducted using the Python programming language.</p>
-		<p>For the data collection part, the ten most popular songs on the platform were searched, using the body part to be investigated as the keyword.</p>
-		<p>In order of popularity, they were listened to and read for validation. Later, they were selected and grouped in the playlist below, which you can listen to if you enjoyed this analysis. The entire code and data are available <a href="https://github.com/juditecypreste/sound_anatomy">here</a>.</p>
+    <p>We conclude that, despite there undeniably being a lot of sexism in museums, and apparently many paintings where women are merely objects of inspiration, using this AI model was a true waste of time.</p>
+    <p>This work cannot and should not be considered as something to be taken seriously, as it was more of an exercise than an actually conclusive endeavor, although I can't deny that in the beginning, I thought this would be quite revolutionary (poor me).</p>
+    <p>Furthermore, in the near future, I hope to evaluate these artworks in a more mechanical yet reliable manner. Perhaps I'll train and understand better how to employ AI for assessing things.</p>
+    <p>All the code for this enormous endeavor that didn't work out quite well but was fun to create can be found <a href="https://github.com/juditecypreste/where-woman-ai">here</a>.</p>    
 	</div>
 </div>
 
